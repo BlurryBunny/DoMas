@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "976774674289",
+    "firebase_url": "https://do-mas-movil-app-default-rtdb.firebaseio.com",
+    "project_id": "do-mas-movil-app",
+    "storage_bucket": "do-mas-movil-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976774674289:android:cdad0ed9820785a23768d0",
+        "android_client_info": {
+          "package_name": "com.example.do_mas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976774674289-hqbrq2t4ha6n5ol0lc46i4fe5srcq5dc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm0NvpRDnTFW2rH6O2wvVvNmimxiZdLEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976774674289-hqbrq2t4ha6n5ol0lc46i4fe5srcq5dc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "976774674289-bo45s8oarp7q5859bt9du9b8aeu8fm0g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.doMas"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
