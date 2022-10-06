@@ -1,41 +1,76 @@
 {
   "project_info": {
-    "project_number": "976774674289",
-    "firebase_url": "https://do-mas-movil-app-default-rtdb.firebaseio.com",
-    "project_id": "do-mas-movil-app",
-    "storage_bucket": "do-mas-movil-app.appspot.com"
+    "project_number": "443780263124",
+    "project_id": "domas-7a10f",
+    "storage_bucket": "domas-7a10f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:976774674289:android:cdad0ed9820785a23768d0",
+        "mobilesdk_app_id": "1:443780263124:android:d8bcf262f319ef36ac1f41",
         "android_client_info": {
           "package_name": "com.example.do_mas"
         }
       },
       "oauth_client": [
         {
-          "client_id": "976774674289-hqbrq2t4ha6n5ol0lc46i4fe5srcq5dc.apps.googleusercontent.com",
+          "client_id": "443780263124-otm8997vitvc8d9idbbaiku8kblpv6fb.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDm0NvpRDnTFW2rH6O2wvVvNmimxiZdLEs"
+          "current_key": "AIzaSyCv8em8UFNWHXzcsz95MGcXk8Tcf_u0wlI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "976774674289-hqbrq2t4ha6n5ol0lc46i4fe5srcq5dc.apps.googleusercontent.com",
+              "client_id": "443780263124-otm8997vitvc8d9idbbaiku8kblpv6fb.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "976774674289-bo45s8oarp7q5859bt9du9b8aeu8fm0g.apps.googleusercontent.com",
+              "client_id": "443780263124-p1jpfd5abgkq1seq5gseqad1n71fhfts.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.doMas"
+                "bundle_id": "com.example.domasSign"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443780263124:android:e9964a6f30d654e4ac1f41",
+        "android_client_info": {
+          "package_name": "com.example.domas_sign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443780263124-otm8997vitvc8d9idbbaiku8kblpv6fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv8em8UFNWHXzcsz95MGcXk8Tcf_u0wlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443780263124-otm8997vitvc8d9idbbaiku8kblpv6fb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "443780263124-p1jpfd5abgkq1seq5gseqad1n71fhfts.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.domasSign"
               }
             }
           ]
