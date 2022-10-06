@@ -44,44 +44,39 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDIE3f9zIxEcYUzSglBbGtxMPh7y_eHt_M',
-    appId: '1:976774674289:web:01ffe07ebf93380f3768d0',
-    messagingSenderId: '976774674289',
-    projectId: 'do-mas-movil-app',
-    authDomain: 'do-mas-movil-app.firebaseapp.com',
-    databaseURL: 'https://do-mas-movil-app-default-rtdb.firebaseio.com',
-    storageBucket: 'do-mas-movil-app.appspot.com',
-    measurementId: 'G-LGJ6DRX01E',
+    apiKey: 'AIzaSyCCT40L6xeX6sfzFW7Ap7HlT2NpNFq469w',
+    appId: '1:443780263124:web:dc585e4f4f7a9834ac1f41',
+    messagingSenderId: '443780263124',
+    projectId: 'domas-7a10f',
+    authDomain: 'domas-7a10f.firebaseapp.com',
+    storageBucket: 'domas-7a10f.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDm0NvpRDnTFW2rH6O2wvVvNmimxiZdLEs',
-    appId: '1:976774674289:android:cdad0ed9820785a23768d0',
-    messagingSenderId: '976774674289',
-    projectId: 'do-mas-movil-app',
-    databaseURL: 'https://do-mas-movil-app-default-rtdb.firebaseio.com',
-    storageBucket: 'do-mas-movil-app.appspot.com',
+    apiKey: 'AIzaSyCv8em8UFNWHXzcsz95MGcXk8Tcf_u0wlI',
+    appId: '1:443780263124:android:d8bcf262f319ef36ac1f41',
+    messagingSenderId: '443780263124',
+    projectId: 'domas-7a10f',
+    storageBucket: 'domas-7a10f.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBmf2QFY-7D-jeyb0kDE-s_nH2hd4DWvxQ',
-    appId: '1:976774674289:ios:e1fcb3d11414182a3768d0',
-    messagingSenderId: '976774674289',
-    projectId: 'do-mas-movil-app',
-    databaseURL: 'https://do-mas-movil-app-default-rtdb.firebaseio.com',
-    storageBucket: 'do-mas-movil-app.appspot.com',
-    iosClientId: '976774674289-bo45s8oarp7q5859bt9du9b8aeu8fm0g.apps.googleusercontent.com',
+    apiKey: 'AIzaSyDSJVPEHA0coEKoz4hTA8xnld2Jj1r2wak',
+    appId: '1:443780263124:ios:c2d784481eed8de8ac1f41',
+    messagingSenderId: '443780263124',
+    projectId: 'domas-7a10f',
+    storageBucket: 'domas-7a10f.appspot.com',
+    iosClientId: '443780263124-tplka2g0lkc6oqtvf5p6oe9egqf26jqd.apps.googleusercontent.com',
     iosBundleId: 'com.example.doMas',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBmf2QFY-7D-jeyb0kDE-s_nH2hd4DWvxQ',
-    appId: '1:976774674289:ios:e1fcb3d11414182a3768d0',
-    messagingSenderId: '976774674289',
-    projectId: 'do-mas-movil-app',
-    databaseURL: 'https://do-mas-movil-app-default-rtdb.firebaseio.com',
-    storageBucket: 'do-mas-movil-app.appspot.com',
-    iosClientId: '976774674289-bo45s8oarp7q5859bt9du9b8aeu8fm0g.apps.googleusercontent.com',
+    apiKey: 'AIzaSyDSJVPEHA0coEKoz4hTA8xnld2Jj1r2wak',
+    appId: '1:443780263124:ios:c2d784481eed8de8ac1f41',
+    messagingSenderId: '443780263124',
+    projectId: 'domas-7a10f',
+    storageBucket: 'domas-7a10f.appspot.com',
+    iosClientId: '443780263124-tplka2g0lkc6oqtvf5p6oe9egqf26jqd.apps.googleusercontent.com',
     iosBundleId: 'com.example.doMas',
   );
 }
