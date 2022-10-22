@@ -1,9 +1,12 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:do_mas/pages/login_page.dart';
+import 'package:do_mas/auth/main_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
 void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
@@ -17,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Do Mas',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -54,38 +57,32 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     final db = FirebaseFirestore.instance;
     final doc  = db.doc('/users/ry3zrvrZ9yiIf6g7gZPq');
      return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: StreamBuilder<DocumentSnapshot<Map<String, dynamic>>>(
-            stream: doc.snapshots(),
-            builder: (context, snapshot) {
-              if(!snapshot.hasData){
-                return const CircularProgressIndicator();
-              }
-              final docsnap = snapshot.data!;
-              return Text(docsnap['surname'] ?? 'sin nombre');
-            }
-          )
-          ),
+      // home: Scaffold(
+      //   body: Center(
+      //     child: StreamBuilder<DocumentSnapshot<Map<String, dynamic>>>(
+      //       stream: doc.snapshots(),
+      //       builder: (context, snapshot) {
+      //         if(!snapshot.hasData){
+      //           return const CircularProgressIndicator();
+      //         }
+      //         final docsnap = snapshot.data!;
+      //         return Text(docsnap['surname'] ?? 'sin nombre');
+      //       }
+      //     )
+      //     ),
+      // ),
+
+      title: 'Do Mas',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
       ),
+      home: MainPage(),
      );
   }
 }
